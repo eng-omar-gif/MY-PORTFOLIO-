@@ -1893,6 +1893,7 @@ html {
 
 /* Project badge effect */
 .project-card::before {
+  content: '🧠';
   position: absolute;
   top: 15px;
   left: 15px;
@@ -1958,3 +1959,4 @@ html {
   opacity: 1;
   transform: scale(1);
 }
+
