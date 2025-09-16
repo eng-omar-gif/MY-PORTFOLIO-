@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (modal && modalImg && captionText && closeBtn) {
     // Get all images that should be clickable
-    const clickableImages = document.querySelectorAll('.certificate-img, .project-img, .profile-img');
+    const clickableImages = document.querySelectorAll('.certificate-img, .profile-img');
     
     // Add click event listeners to all clickable images
     clickableImages.forEach(function(img) {
@@ -181,3 +181,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
+
